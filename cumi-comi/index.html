@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thesperia | Libreria</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="../icone/css/font-awesome.css" rel="stylesheet">
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700" rel="stylesheet">
+    <link href="../css/bookshelf.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="../immagini/logo.jpg" />
+    <style>
+      .mioLink{
+        color:black;
+      }
+      .mioLink:hover{
+        color:rgb(255, 140, 0);
+        text-decoration: underline;
+      }
+      .linkActive{
+        color:rgb(255, 140, 0);
+        text-decoration: underline;
+      }
+      .icon {
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+      }
+      .icon:hover{
+        color:black;
+      }
+      .riquadro{
+        background-color: yellow;
+        height: 200px;
+        border: 1px solid black;
+      }
+      .riquadro:hover{
+        background-color: coral;
+      }
+      .testo{
+        font-size: 16px;
+        vertical-align: middle;
+        display: table-cell;
+      }
+      .centra{ text-align: center}
+      .destra { text-align: right }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid" style="background-color:rgb(255, 140, 0);">
+      <div class="container destra" style="color:white; font-weight:bold; padding:2px;">
+          <a class="icon" href="https://www.facebook.com/noidellesperia" target="_blank"><i class="fa fa-facebook" title="Facebook"></i></a>
+          <a class="icon" href="https://www.instagram.com/post_itis/" target="_blank"><i class="fa fa-instagram" title="Instagram"></i></a>
+          <a class="icon" href="https://t.me/noidellesperia" target="_blank"><i class="fa fa-telegram" title="Telegram"></i></a>
+          <a class="icon" href="mailto:giornalino.esperia@gmail.com" target="_blank"><i class="fa fa-google" title="Scrivi un'email"></i></a>
+      </div>
+    </div>
+    <!-- NAVBAR -->
+    <div class="container" style="margin-top:20px; margin-bottom:20px;">
+      <a href="../index.html" style="color:black; text-decoration:none"><h2 class="centra" style="font-family: 'Coiny','sans-serif'; font-size:42px; margin-top: 10px; margin-bottom: 10px;">thesperia.it</h2></a>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link mioLink" href="../">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mioLink" href="../post-itis/">Post-itis</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mioLink" href="../libreria">Libreria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mioLink linkActive" href="./">Cumi-Comi</a>
+        </li>
+      </ul>
+    </div>
+    <!-- LIBRERIA -->
+    
+    <hr>
+    <div class="container-fluid" style="background-color:rgba(255,140,0,0.2); padding:10px; padding-bottom:50px;">
+      <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-17.pdf" class="libro" title="Cumi-Comi - Edizione 17">
+              <img src="./img/cumi-comi-17.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-17.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+            <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-16.pdf" class="libro" title="Cumi-Comi - Edizione 16">
+              <img src="./img/cumi-comi-16.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-16.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-15.pdf" class="libro" title="Cumi-Comi - Edizione 15">
+              <img src="./img/cumi-comi-15.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-15.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-14.pdf" class="libro" title="Cumi-Comi - Edizione 14">
+              <img src="./img/cumi-comi-14.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-14.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+          <div class="col-12 shelf hidden-xs-down"></div>
+            <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-13.pdf" class="libro" title="Cumi-Comi - Edizione 13">
+              <img src="./img/cumi-comi-13.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-13.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+          
+            <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-12.pdf" class="libro" title="Cumi-Comi - Edizione 12">
+              <img src="./img/cumi-comi-12.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-12.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+            <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-11.pdf" class="libro" title="Cumi-Comi - Edizione 11">
+              <img src="./img/cumi-comi-11.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-11.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+            <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-10.pdf" class="libro" title="Cumi-Comi - Edizione 10">
+              <img src="./img/cumi-comi-10.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-10.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+          <div class="col-12 shelf hidden-xs-down"></div>
+            <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-9.pdf" class="libro" title="Cumi-Comi - Edizione 9">
+              <img src="./img/cumi-comi-9.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-9.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+
+            <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-8.pdf" class="libro" title="Cumi-Comi - Edizione 8">
+              <img src="./img/cumi-comi-8.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-8.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+          
+            <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-7.pdf" class="libro" title="Cumi-Comi - Edizione 7">
+              <img src="./img/cumi-comi-7.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-7.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+          
+             <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-6.pdf" class="libro" title="Cumi-Comi - Edizione 6">
+              <img src="./img/cumi-comi-6.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-6.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+            <div class="col-12 shelf hidden-xs-down"></div>
+            <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-5.pdf" class="libro" title="Cumi-Comi - Edizione 5">
+              <img src="./img/cumi-comi-5.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-5.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+
+            <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-4.pdf" class="libro" title="Cumi-Comi - Edizione 4">
+              <img src="./img/cumi-comi-4.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-4.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+
+           <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-3.pdf" class="libro" title="Cumi-Comi - Edizione 3">
+              <img src="./img/cumi-comi-3.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-3.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+          <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-2.pdf" class="libro" title="Cumi-Comi - Edizione 2">
+              <img src="./img/cumi-comi-2.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-2.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+          <div class="col-12 shelf hidden-xs-down"></div>
+          
+          <div class="col-6 col-md-3 centra">
+            <a href="./pdf/cumi-comi-1.pdf" class="libro" title="Cumi-Comi - Edizione 1">
+              <img src="./img/cumi-comi-1.png" class="img-responsive book d-none d-md-block" onmouseover="ciao(this)" onmouseout="provolo(this)">
+              <img src="./img/cumi-comi-1.png" class="img-responsive bookMobile d-md-none" onmouseover="ciao(this)" onmouseout="provolo(this)">
+            </a>
+          </div>
+        <div class="col-12 shelf hidden-xs-down"></div>
+
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- FOOTER -->
+    <div class="container-fluid" style="background-color:rgba(255, 140, 0,0.7);">
+      <div class="container centra" style="color:white;  font-weight:bold; padding:20px;">
+        <h2 class="centra" style="font-family: 'Coiny','sans-serif'; font-size:32px; margin-top: 10px; margin-bottom: 10px;">thesperia.it</h2>
+        <a class="icon" href="https://www.facebook.com/noidellesperia" target="_blank"><i class="fa fa-facebook" title="Facebook"></i></a>
+        <a class="icon" href="https://www.instagram.com/noidellesperia/" target="_blank"><i class="fa fa-instagram" title="Instagram"></i></a>
+        <a class="icon" href="https://t.me/noidellesperia" target="_blank"><i class="fa fa-telegram" title="Telegram"></i></a>
+        <a class="icon" href="mailto:giornalino.esperia@gmail.com" target="_blank"><i class="fa fa-google" title="Scrivi un'email"></i></a>
+        <p class="centra" style="margin-top: 10px; margin-bottom: 10px;">Copyright <i class="fa fa-copyright"></i> 2018</p>
+      </div>
+    </div>
+  </body>
+</html>
